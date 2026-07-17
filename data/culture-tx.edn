@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "eri.dish.injera", :name "Injera", :country "ERI", :kind :dish, :summary "Fermented flatbread that is a staple in both Ethiopia and Eritrea, of shared significance to the two nations' cuisines.", :url "https://en.wikipedia.org/wiki/Injera", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eri.dish.zigni", :name "Zigni", :country "ERI", :kind :dish, :summary "Meat stew from Eritrea and Ethiopia made with tomatoes, red onions and berbere spices, considered to be the national dish of Eritrea.", :url "https://en.wikipedia.org/wiki/Zigni", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eri.dish.shahan-ful", :name "Shahan ful", :country "ERI", :kind :dish, :summary "Fava bean dish common across the Horn of Africa, with Eritrea among the places where it is served.", :url "https://en.wikipedia.org/wiki/Shahan_ful", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eri.dish.himbasha", :name "Himbasha", :country "ERI", :kind :dish, :summary "Slightly sweet Ethiopian and Eritrean celebration bread, popular in Eritrean cuisine and often served at special occasions.", :url "https://en.wikipedia.org/wiki/Himbasha", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eri.beverage.coffee-ceremony", :name "Coffee ceremony of Ethiopia and Eritrea", :country "ERI", :kind :beverage, :summary "Coffee culture practiced in Ethiopia and Eritrea: green beans are roasted, ground and brewed in a clay pot, served in multiple rounds as a daily social gathering.", :url "https://en.wikipedia.org/wiki/Coffee_ceremony_of_Ethiopia_and_Eritrea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eri.festival.meskel", :name "Meskel", :country "ERI", :kind :festival, :summary "Religious holiday of the Eritrean Orthodox Tewahedo Church and other Christian denominations in Eritrea and Ethiopia, commemorating the discovery of the True Cross with annual bonfire ceremonies.", :url "https://en.wikipedia.org/wiki/Meskel", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eri.heritage.asmara", :name "Asmara", :country "ERI", :kind :heritage, :summary "Capital of Eritrea, designated a UNESCO World Heritage Site in 2017 as 'Asmara: A Modernist African City' for its early modernist urbanism.", :url "https://en.wikipedia.org/wiki/Asmara", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
