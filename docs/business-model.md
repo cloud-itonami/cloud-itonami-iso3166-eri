@@ -6,7 +6,7 @@ Independent public-sector market-entry compliance for Eritrea.
   e-procurement portal or procurement law could be independently verified
   in this iteration -- every `.gov.er` domain tried besides the Ministry
   of Information's own `shabait.com` either failed DNS resolution, reset
-  the connection or timed out (see `src/marketentry/facts.cljc` for the
+  the connection or timed out (see `src/marketentry/facts.kotoba` for the
   full list attempted). This is reported as an honest access gap, not a
   claim that no such framework exists.
 - Ministry of Trade and Industry (MTI) issues trade license permits via
@@ -27,5 +27,5 @@ Independent public-sector market-entry compliance for Eritrea.
   minimum-of-three-distinct-suppliers RFO for mining/mineral-exploration
   companies' own procurement of goods and services (sole-supplier-market
   exception aside). This sector-scoped mechanism is this catalog's
-  flagship check -- see `src/marketentry/facts.cljc` for the full
+  flagship check -- see `src/marketentry/facts.kotoba` for the full
   citation trail and confidence notes.
